@@ -1,0 +1,107 @@
+# ==========================================
+# Python Compiled & C Cache Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+.env/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.secrets
+local_settings.py
+production_settings.py
+.env.development
+
+# ==========================================
+# Django Databases & Media
+# ==========================================
+# Exclude local SQLite database
+*.sqlite3
+db.sqlite3
+
+# Exclude user-uploaded media files
+media/
+/media
+
+# Exclude collected static files (if deploying via CDN/server)
+static_cdn/
+staticfiles/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.layout.md
+.pytest_cache/
+
+# ==========================================
+# Logs & Packages
+# ==========================================
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# IDE / Editor Configurations
+# ==========================================
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Text Editors
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
